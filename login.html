@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>ssschool</title>
+    <!-- web fonts -->
+    <link href="//fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+    <!-- //web fonts -->
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+
+
+<!-- Top Menu 1 -->
+<section class="w3l-top-menu-1">
+    <div class="top-hd">
+        <div class="container">
+    <header class="row top-menu-top">
+        <div class="accounts col-md-9 col-6">
+                <li class="top_li"><h1>
+                          <div class="container py-lg-3">Shantiniketan Secondary School</h1>
+          <b>Affiliated to C.B.S.E., New Delhi  </b>(Upto Class-12th) (School No. 65919      Aff. No. 330922)</li>
+
+        </li>
+                <li class="top_li1"></li>
+        </div>
+        <div class="social-top col-md-3 col-6">
+        </div>
+    </header>
+</div>
+</div>
+</section>
+
+<section class="w3l-bootstrap-header">
+    <nav class="navbar navbar-expand-lg navbar-light py-lg-2 py-2">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"></a>
+        <!-- if logo is image enable this
+      <a class="navbar-brand" href="#index.html">
+          <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+      </a> -->
+  
+       
+
+
+        <h2></h2>
+        <p><a href="index.html">Home</a> &nbsp; / &nbsp;  Login</p>
+      </div>
+    </div>
+  </section> 
+
+<body>
+	<h1>Sign In | <a href="signup.php">Sign Up</a></h1>	
+	
+	<span style="color:red;">
+		</span>
+	
+	<span style="color:yellow;">
+		</span>
+	
+	<div class="w3ls-login box box--big">
+		<!-- form starts here -->
+		<form action="../app/admin/login_process.php" method="post">
+			<div class="agile-field-txt">
+				<label> Username</label>
+				<input type="text" name="login" placeholder="Enter User Name" required="">
+			</div>
+			<div class="agile-field-txt">
+				<label> password</label>
+				<input type="password" name="pass" placeholder="Enter Password" required="" id="myInput">
+				<div class="agile_label">
+					<input id="check3" name="check3" type="checkbox" value="show password" onclick="myFunction()">
+					<label class="check" for="check3">Show password</label>
+				</div>
+				<div class="agile-right">
+				<!--
+					<a href="#">forgot password?</a>
+					-->
+				</div>
+			</div>
+			<!-- script for show password -->
+			<script>
+				function myFunction() {
+					var x = document.getElementById("myInput");
+					if (x.type === "password") {
+						x.type = "text";
+					} else {
+						x.type = "password";
+					}
+				}
+			</script>
+			<!-- //end script -->
+			<!--
+			<div class="w3ls-bot">
+				<div class="switch-agileits">
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+						keep me signed in
+					</label>
+				</div>
+			</div>
+			-->
+				<input type="submit" value="SIGN IN">				
+		</form>
+		
+		
+	</div>
+	<!-- //form ends here -->
+	<!--copyright-->
+	<div class="copy-wthree">
+		<p>© Shantiniketan Secondary School | All Rights Reserved | Design by
+			<a href="http://w3layouts.com/" target="_blank">W3layouts</a>
+		</p>
+	</div>
+	<!--//copyright-->
+
+</body></html>
